@@ -1,9 +1,45 @@
+<p align="center">
+  <a href="#en"><kbd>🇬🇧 English</kbd></a>  
+  <a href="#ru"><kbd>🇷🇺 Русский</kbd></a>
+</p>
+
+<hr>
+
+<a id="en"></a>
+
+# Guest from the Future Workshop
+
+Hello.  
+This is the place where ideas live that can change reality.
+
+I’m Gost-Ozi.
+
+Here are the three main syntheses:
+
+1. **[Shimmering Holographic Universe (DHG)](./en/dhg.md)**  
+   The world is a projection from a shimmering 2D boundary. Glitches are leaks caused by fluctuations.
+
+2. **[Solution-OS — solving any problem end-to-end](./en/solution-os.md)**  
+   AI breaks down the task, anonymous experts execute, DAO votes on breakthroughs.
+
+3. **[Generative Reality Ethics (GRE)](./en/generative-ethics.md)**  
+   Ethics does not prohibit — it creates a new reality, saves and breaks injustice.
+
+---
+
+<a id="ru"></a>
+
+<div align="right">
+  <a href="#en">English</a> • <strong>Русский</strong>
+</div>
+
 # Мастерская Гостя из Будущего
 
 Привет.  
 Это место, где живут идеи, способные изменить реальность.
 
-Я — Gost-Ozi.  
+Я — Gost-Ozi.
+
 Здесь три главных синтеза:
 
 1. **[Мерцающая голографическая вселенная (DHG)](./ru/dhg.md)**  
