@@ -120,3 +120,7 @@ The new paradise begins with your actions.
 Лицензия: CC-BY-SA — копируйте, но указывайте автора
 
 Язык: [Русский](./ru/) | [English](./en/)
+## Solution-OS / Genesis
+
+- 🇷🇺 [Описание на русском](docs/solution-os_ru.md)  
+- 🇬🇧 [Description in English](docs/solution-os_en.md)
