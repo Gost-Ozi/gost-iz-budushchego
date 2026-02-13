@@ -133,3 +133,7 @@ The new paradise begins with your actions.
 
 - 🇷🇺 [Описание на русском](docs/solution-os_ru.md)  
 - 🇬🇧 [Description in English](docs/solution-os_en.md)
+## Теория структурной проекции реальности (TSPR) / Theory of Structural Projection of Reality
+
+- 🇷🇺 [Описание на русском](docs/tspr_ru.md)  
+- 🇬🇧 [English version](docs/tspr_en.md)
