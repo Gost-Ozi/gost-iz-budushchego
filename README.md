@@ -137,3 +137,7 @@ The new paradise begins with your actions.
 
 - 🇷🇺 [Описание на русском](docs/tspr_ru.md)  
 - 🇬🇧 [English version](docs/tspr_en.md)
+## Новая Этика / Generative Reality Ethics (GRE)
+
+- 🇷🇺 [Описание на русском](docs/rugenerative-ethics.md)  
+- 🇬🇧 [Description in English](docs/engenerative-ethics.md)
