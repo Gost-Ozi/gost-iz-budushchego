@@ -124,3 +124,12 @@ The new paradise begins with your actions.
 
 - 🇷🇺 [Описание на русском](docs/solution-os_ru.md)  
 - 🇬🇧 [Description in English](docs/solution-os_en.md)
+## Теория структурной проекции реальности (TSPR)
+
+- 🇷🇺 [Описание на русском](docs/tspr_ru.md)  
+- 🇬🇧 [English version](docs/tspr_en.md)
+
+## Solution-OS / Genesis
+
+- 🇷🇺 [Описание на русском](docs/solution-os_ru.md)  
+- 🇬🇧 [Description in English](docs/solution-os_en.md)
