@@ -151,3 +151,5 @@ The new paradise begins with your actions.
 
 - 🇷🇺 [Описание на русском](docs/rugenerative-ethics.md)  
 - 🇬🇧 [Description in English](docs/engenerative-ethics.md)
+*   **[GRE Core v1.0 (Русский)](GRE-Core-v1.0.ru.md)** — формальное ядро системы.
+*   **[GRE Core v1.0 (English)](GRE-Core-v1.0.en.md)** — formal core of the system.
