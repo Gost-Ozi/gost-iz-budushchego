@@ -125,3 +125,4 @@ Compensation is collected through other means — immediately or with deferral/i
 Tokens are not a measure of human worth.  
 Tokens do not grant the right to override D of other R.  
 No concentration of tokens grants immunity from GRE Protocol.
+[Вернуться к основному манифесту GRE → README](https://github.com/Gost-Ozi/gost-iz-budushchego#readme)
