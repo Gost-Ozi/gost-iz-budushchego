@@ -114,6 +114,8 @@ The new paradise begins with your actions.
 Если прочитав поймёшь — это твоё, живи по этим принципам настолько, насколько возможно.  
 Если видишь, что можно лучше — улучшай.  
 Новый рай начинается с твоих поступков.
+
+[Экономический слой GRE v1.0](docs/gre-economics-v1.md)
 Обновлено: февраль 2026  [README.md.TXT](https://github.com/user-attachments/files/24992905/README.md.TXT)
 
 Автор: Gost-Ozi  
