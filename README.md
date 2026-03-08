@@ -156,3 +156,5 @@ The new paradise begins with your actions.
 *   **[GRE Core v1.0 (Русский)](GRE-Core-v1.0.ru.md)** — формальное ядро системы.
 *   **[GRE Core v1.0 (English)](GRE-Core-v1.0.en.md)** — formal core of the system.
 [Глоссарий GRE / GRE Glossary](docs/glossary.md)
+
+→ [Протокол допуска и компетенции (Admission Layer v1.0)](docs/gre-admission-v1.md)
