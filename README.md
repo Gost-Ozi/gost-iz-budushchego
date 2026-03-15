@@ -178,3 +178,37 @@ The new paradise begins with your actions.
 [Глоссарий GRE / GRE Glossary](docs/glossary.md)
 
 → [Протокол допуска и компетенции (Admission Layer v1.0)](docs/gre-admission-v1.md)
+
+---
+
+## Присоединяйся / Join 💫
+
+**Русский**  
+Пока это живая мастерская идей: концепции, протоколы, синтезы.  
+MVP Solution-OS и детальная тактика развития — в процессе (с ИИ и единомышленниками).  
+
+Если тебе близко это видение:  
+- Почитай /docs и GRE Core  
+- Напиши мне мысли/критику/предложения: [@Gost-Ozi на X](https://x.com/Gost_Ozi) или в Telegram  
+- Форкни и улучши любой кусок — pull request приветствуется  
+
+Ищешь единомышленников?  
+Если GRE, Solution-OS или мерцающая реальность резонируют с тобой — давай говорить.  
+Напиши: что бы ты добавил/изменил/попробовал первым?  
+
+Вместе мы сильнее. ✨
+
+**English**  
+This is still a living workshop of ideas: concepts, protocols, syntheses.  
+MVP of Solution-OS and detailed development tactics are in progress (with AI and like-minded people).  
+
+If this vision resonates with you:  
+- Read /docs and GRE Core  
+- Write me your thoughts/critique/suggestions: [@Gost-Ozi on X](https://x.com/Gost_Ozi) or Telegram  
+- Fork and improve any part — pull requests welcome  
+
+Looking for like-minded people?  
+If GRE, Solution-OS or shimmering reality speaks to you — let's talk.  
+Write: what would you add/change/try first?  
+
+Together we are stronger. ✨
