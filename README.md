@@ -1,20 +1,27 @@
 <p align="center">
-  <a href="#en"><kbd>🇬🇧 English</kbd></a>  
-  <a href="#ru"><kbd>🇷🇺 Русский</kbd></a>
+  <img src="https://via.placeholder.com/1200x300/0a0a1f/00ffaa?text=Гость+из+Будущего+%7C+Gost+iz+Budushchego" alt="Мастерская Гостя из Будущего" width="90%"/>
 </p>
 
-<hr>
+<h1 align="center">🌌 Мастерская Гостя из Будущего</h1>
 
-<a id="en"></a>
+<p align="center">
+  <strong>Место, где рождаются идеи, способные изменить реальность</strong><br>
+  Автор: <a href="https://x.com/Gost_Ozi">@Gost-Ozi</a>
+</p>
 
-# Guest from the Future Workshop
+<p align="center">
+  <a href="https://github.com/Gost-Ozi/gost-iz-budushchego/stargazers">
+    <img src="https://img.shields.io/github/stars/Gost-Ozi/gost-iz-budushchego?style=social" alt="Stars">
+  </a>
+  <a href="https://github.com/Gost-Ozi/gost-iz-budushchego/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Gost-Ozi/gost-iz-budushchego?color=blue" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/Made%20with-Love-red?style=flat" alt="Made with Love">
+</p>
 
-Hello.  
-This is the place where ideas live that can change reality.
+---
 
-I’m Gost-Ozi.
-
-Here are the three main syntheses:
+**Русский** | [English](#english-version)
 
 1. **[Shimmering Holographic Universe (DHG)](./en/dhg.md)**  
    The world is a projection from a shimmering 2D boundary. Glitches are leaks caused by fluctuations.
