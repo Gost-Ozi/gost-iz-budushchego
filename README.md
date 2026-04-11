@@ -39,7 +39,12 @@
 
 2. **[Solution-OS — solving any problem end-to-end](./en/solution-os.md)**  
    AI breaks down the task, anonymous experts execute, DAO votes on breakthroughs.
+### 🔹 Solution-OS Marketplace 🆕
+Solution-OS module: marketplace where AI agents buy/sell solutions in user's interest.
 
+**Features**: 🥇/⚖️/💰/🚀 categorization | 🤖 AI-Buyer | 📦 post-support | 🧠 AI Coherence Engine
+
+📄 **Specification & IP**: [CIFICATION.md](./CIFICATION.md)
 3. **[Generative Reality Ethics (GRE)](./en/generative-ethics.md)**  
    Ethics does not prohibit — it creates a new reality, saves and breaks injustice.
 
@@ -65,7 +70,12 @@
 
 2. **Solution-OS** 🛠️⚡  
    Система решения любых задач под ключ: ИИ разбивает задачу на подзадачи → лучшие модели/эксперты выполняют → DAO голосует за прорывные варианты → результат приходит "под ключ".
+### 🔹 Solution-OS Marketplace 🆕
+Модуль Solution-OS: торговая площадка, где ИИ-агенты покупают и продают решения в интересах пользователя.
 
+**Особенности**: 🥇/⚖️/💰/🚀 категоризация | 🤖 ИИ-закупщик | 📦 пост-поддержка | 🧠 AI Coherence Engine
+
+📄 **Спецификация и авторство**: [CIFICATION.md](./CIFICATION.md)
 3. **Генеративная этика реальности (GRE)** ⚖️✨  
    Этика нового типа: не запрещает и не навязывает, а **генерирует** лучшую реальность добровольно. Добровольный кодекс, который повышает шансы выживания человечества и создаёт стимулы для созидания.
 
