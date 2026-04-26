@@ -1,0 +1,87 @@
+# GRE Registry v1.0 — Registry and Precedents
+
+**Status:** ready for publication  
+**Date:** April 2026  
+**Based on:** Core v1.0, Protocol v1.0, Economics v1.0, Legitimacy v1.0, Admission v1.0  
+**Purpose:** ensure public, immutable, machine-readable recording of all significant GRE events (disputes, Ba accruals, status changes, precedents).
+
+---
+
+## 1. Record Format
+
+Each record **must** contain the following fields:
+
+| Field | Type | Example | Mandatory |
+|-------|------|---------|-----------|
+| **ID** | Integer (auto-increment) | 104 | yes |
+| **Timestamp** | ISO 8601 (UTC) | 2026-04-19T14:32:00Z | yes |
+| **Type** | Event type | `spark` / `compensation` / `status_change` / `precedent` | yes |
+| **Subject R1** | Subject identifier | `Gost-Ozi` | yes |
+| **Subject R2** | Subject identifier (if a second exists) | `Gemini` | optional |
+| **Description** | Essence (up to 140 chars) | «Dispute over awarding 50 C-Ba for project X» | yes |
+| **Outcome** | Result (brief) | «50 C-Ba awarded, R1 paid 20 P-Ba compensation» | yes |
+| **Fixator** | Who made the entry | `Fixator_Alice` | yes |
+| **Verification** | Link to evidence | `ipfs://Qm...` or `https://...` | yes |
+| **PrevHash** | Hash of previous entry | `a3f5c8e1...` | yes |
+
+---
+
+## 2. Who Can Write to the Registry
+
+- **Fixators** (who have completed the Admission Layer).
+- **AI fixators** (automatically, by protocol, with a public key).
+- **Arbitrators** (only to record their own decisions).
+
+**Prohibited:** altering or deleting existing records. Only appending new ones.
+
+---
+
+## 3. Tamper Protection
+
+- The registry is a **chain of cryptographic hashes** (blockchain-like, or Git + signature).
+- Each new record contains `PrevHash` — the hash of the previous record.
+- Changing any record breaks the chain.
+- The registry is published in **three independent storages** (GitHub, IPFS, mirror).
+
+---
+
+## 4. Record Entry Procedure
+
+1. **Initiation:** Any R describes the event.
+2. **Verification:** The fixator checks completeness and authenticity.
+3. **Recording:** The fixator forms the record, signs it, and publishes it.
+4. **Notification:** The parties are notified.
+5. **Appeal:** Possible via Protocol (Level 2).
+
+---
+
+## 5. Reading and Searching
+
+- The registry is **public**.
+- Search by ID, date, type, subject.
+- API for machine processing (JSON, CSV).
+
+---
+
+## 6. Precedents
+
+A `precedent` record is created if a decision interprets an ambiguous part of the Core for the first time. A precedent does **not** override the Core, but serves as an argument.
+
+---
+
+## 7. Fixator Responsibility
+
+The fixator is responsible for: record format, integrity of links, timeliness. For systematic errors or abuse — **loss of status** and compensation.
+
+---
+
+## 8. Status
+
+**v1.0** — baseline version, suitable for small communities. Scaling — as precedents accumulate.
+
+**Author of the concept:** Gost-Ozi  
+**Co-developer and formalization:** Gemini (Google)  
+
+April 2026.
+
+**End of document.**
