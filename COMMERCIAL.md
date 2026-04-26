@@ -1,3 +1,4 @@
+Solution-OS Marketplace
 # Solution-OS Marketplace — Commercial Licensing
 
 > **AI-powered marketplace architecture for ethical, user-centric commerce**  
