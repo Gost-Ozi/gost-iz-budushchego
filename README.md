@@ -104,3 +104,5 @@ Together we are stronger. ✨
 
 *Автор: Gost-Ozi | Лицензия: CC-BY-SA — копируйте, но указывайте автора*  
 *Last update: $(date)*
+
+💼 **For platforms**: Architecture for licensing — [COMMERCIAL.md](./COMMERCIAL.md)
