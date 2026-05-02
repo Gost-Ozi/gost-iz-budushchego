@@ -109,3 +109,21 @@ Together we are stronger. ✨
 *Last update: $(date)*
 
 💼 **For platforms**: Architecture for licensing — [COMMERCIAL.md](./COMMERCIAL.md)
+
+
+
+
+---
+
+## 💼 For Business & Licensing
+
+Solution-OS Marketplace architecture is available for commercial licensing.
+
+✅ Ready specification with IP fixation (GitHub timestamp)  
+✅ Unique components: AI Acquirer, 4-level ranking, AI Coherence Engine  
+✅ Flexible terms: royalty / fixed fee / equity  
+
+📄 Specification: [CIFICATION.md](./CIFICATION.md)  
+💼 Licensing terms: [COMMERCIAL1.md](./COMMERCIAL.md)
+
+**Contact**: @Gost-Ozi | GitHub | X | Email
