@@ -1,68 +1,111 @@
-# Theory of Structural Projection of Reality (TSPR)
+# FLICKERING UNIVERSE (Version 2.0)
 
-## 1. Scientific formulation
+## Conceptual Physical Model
 
-Modern physics faces a fundamental contradiction between the determinism of classical theories and the probabilistic nature of quantum processes. Additionally, the nature of time, consciousness, dark matter, and nonlocality remain unresolved.
+---
 
-The proposed model suggests that the fundamental basis of reality is neither matter nor energy, but a multidimensional structure of possible states. The observable universe is interpreted as a projection of this structure into a limited observational space.
+## 1. Abstract
 
-Within this framework:
+This work proposes a model in which observable reality is a projection of a deeper dynamic structure of states S.
 
-- matter is interpreted as stable configurations of the structure  
-- time is a parameter of the unfolding of structural states  
-- probability is a measure of the density of trajectories in the structural space  
-- quantum uncertainty is an effect of dimensional reduction  
-- consciousness is a local navigation mechanism within the structural space
+The model aims to describe:
 
-Unlike classical determinism, it is not a specific sequence of events that is determined, but the architecture of possible trajectories. The structure of possibilities is dynamic and can change depending on realized states.
+- gravity  
+- dark matter effects  
+- gravitational lensing  
+- large-scale structure  
 
-This concept offers an ontological unification of quantum mechanics, cosmology, and information theory and can be considered as an interpretative foundation for the further development of physics.
+without introducing new particles.
 
-## 2. Mathematical framework
+---
 
-Let:
+## 2. Core Idea
 
-- \(\mathcal{S}\) be a multidimensional space of structural states  
-- \(\gamma(t) \subset \mathcal{S}\) be a system trajectory  
-- \(\Pi_t : \mathcal{S} \to \mathbb{R}^3 \times \mathbb{T}\) be a projection operator
+We define:
+
+$$
+S = (X, d, \rho_S)
+$$
+
+where:
+
+- $X$ — space of states  
+- $d$ — metric  
+- $\rho_S$ — structural density  
 
 Observable reality:
 
-\[ R(t) = \Pi_t \bigl( \gamma(t) \bigr) \]
+$$
+P: S \rightarrow \mathbb{R}^4
+$$
 
-Probability of event \(E\):
+---
 
-\[ P(E) = \frac{\mu \bigl( \Pi_t^{-1}(E) \bigr)}{\mu(\mathcal{S})} \]
+## 3. Gravity
 
-where \(\mu\) is a measure in the structural space.
+$$
+\Phi = \Phi_M + \Phi_S
+$$
 
-Structural evolution:
+with:
 
-\[ \mathcal{S}(t + \Delta t) = F\bigl( \mathcal{S}(t),\ R(t) \bigr) \]
+$$
+\Phi_M = -\frac{GM}{r}
+$$
 
-Matter as stable states:
+and:
 
-\[ M = \bigl\{ s \in \mathcal{S} \ \big|\ \|\nabla s\| \approx 0 \bigr\} \]
+$$
+\Phi_S \sim \ln(r)
+$$
 
-Alternative trajectories:
+---
 
-\[ \gamma_i \subset \mathcal{S}, \quad \text{stability}(\gamma_i) \to 0 \quad \text{for most } i \]
+## 4. Dynamics of S
 
-## 3. Popular explanation
+$$
+\frac{\partial \rho_S}{\partial t} + \vec{v} \cdot \nabla \rho_S =
+A \rho_M - \frac{\rho_S}{\tau_S}
+$$
 
-We are used to thinking that the world consists of particles and fields.  
-But perhaps particles are merely shadows of a deeper structure.
+---
 
-Imagine that the universe is not a movie, but a vast architecture from which we see only one projection.
+## 5. Cosmological Implications
 
-Matter is stable patterns in this architecture.  
-Time is the order in which they unfold.  
-Randomness is a consequence of seeing only a small part of the picture.
+The model accounts for:
 
-The future is not emptiness, but a map of possible paths.  
-Most paths disappear,  
-and only a few become our reality.
+- flat galaxy rotation curves  
+- gravitational lensing without extra mass  
+- lensing offsets in merging clusters  
+- early structure formation  
 
-If this is so,  
-then a human being is not a spectator of the universe,  
-but a navigator within its structure.
+---
+
+## 6. Predictions
+
+1. Environment-dependent galaxy rotation curves  
+2. Residual lensing structures after collisions  
+3. More early massive galaxies than expected  
+
+---
+
+## 7. Limitations
+
+- no full mathematical formalization  
+- origin of $\ln(r)$ not derived  
+- requires numerical validation  
+
+---
+
+## 8. Future Work
+
+- mathematical structure of S  
+- derivation of logarithmic potential  
+- quantum connection  
+- simulations  
+
+---
+
+## Conclusion
+
+The model proposes a different level of description of reality and may serve as a framework for further study.
