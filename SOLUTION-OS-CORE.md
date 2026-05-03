@@ -1,96 +1,56 @@
-# Solution-OS Core Architecture | Ядро Архитектуры
+# Solution-OS Core Architecture
 
-> **Saving AI from the Bubble | Спасение ИИ от пузыря**  
-> *Human Expertise + AI Breakdown + DAO Validation*
+> **Next-Generation Verification & Orchestration Layer**
+> *Integrating Human Expertise with AI Decomposition & DAO Validation*
 
 **Author**: @Gost-Ozi  
-**Repo**: https://github.com/Gost-Ozi/gost-iz-budushchego  
-**Status**: Conceptual Architecture | Ready for Licensing  
+**Repository**: https://github.com/Gost-Ozi/gost-iz-budushchego  
+**Status**: v1.1 Specification | Stable  
 **License**: CC-BY-SA (Non-commercial) | Commercial: By Agreement
 
 ---
 
-## 🇷🇺 РУССКАЯ ВЕРСИЯ
+## 1. The Core Mission
+In an era of AI-generated noise, **Solution-OS** acts as a "Trust Filter" and "Task Orchestrator". It addresses the fundamental flaws of modern Large Language Models (LLMs): the lack of accountability, causal reasoning, and ethical anchoring.
 
-### 1. Проблема: AI Reckoning 2026
-Индустрия ИИ столкнулась с кризисом окупаемости (ROI):
-- Триллионы инвестиций в инфраструктуру (capex).
-- 95% enterprise-проектов не дают измеримой прибыли (MIT Media Lab).
-- Чистый ИИ (LLM) отлично распознает паттерны, но проваливается в сложных причинно-следственных задачах (science, engineering, strategy).
-- **Риск**: «Пузырь ИИ» лопнет, если не появится слой человеческой верификации.
-
-### 2. Решение: Solution-OS
-Это не «ещё один чат-бот». Это операционная система для решения задач под ключ, где ИИ выступает координатором, а не единственным исполнителем.
-
-**Workflow (Рабочий процесс)**:
-1.  **ИИ-Декомпозиция**: Запрос пользователя разбивается на подзадачи.
-2.  **Анонимные Эксперты**: Задачи распределяются среди верифицированных специалистов (zk-proof, репутация).
-3.  **DAO-Валидация**: Лучшие решения выбираются голосованием сообщества/экспертов.
-4.  **Результат**: Пользователь получает проверенное решение «под ключ».
-
-### 3. Ценность для Платформ
-- **Для xAI/Google/Amazon**: Снижает риск «пузыря», повышает ROI enterprise-клиентов.
-- **Для Пользователей**: Гарантирует качество там, где чистый ИИ ошибается.
-- **Для Экспертов**: Анонимность + оплата за реальный вклад (GRE Economics).
-
-### 4. Связь с Marketplace
-**Solution-OS Marketplace** — первый коммерческий модуль этой архитектуры.
-- Вместо сложных задач — **покупка товаров/услуг**.
-- Вместо DAO — **ИИ-агент закупщика** (работает на покупателя).
-- Вместо абстрактной этики — **конкретная выгода** (снижение возвратов, прозрачный выбор).
-
-> Marketplace доказывает работоспособность ядра Solution-OS на реальном рынке.
-
-### 5. Статус
-- **Архитектура**: Зафиксирована (временная метка GitHub).
-- **Этика (GRE)**: Протокол готов.
-- **Коммерциализация**: Лицензирование архитектуры (см. COMMERCIAL.md).
+The system is designed to transform probabilistic AI outputs into guaranteed solutions by integrating human expertise and decentralized audit protocols.
 
 ---
 
-## 🇬🇧 ENGLISH VERSION
+## 2. Technical Architecture (The 3-Pillar Model)
 
-### 1. The Problem: AI Reckoning 2026
-The AI industry faces an ROI crisis:
-- Trillions invested in infrastructure (capex).
-- 95% of enterprise GenAI projects yield zero measurable return (MIT Media Lab).
-- Pure AI (LLM) excels at pattern recognition but fails at complex causal tasks (science, engineering, strategy).
-- **Risk**: The "AI Bubble" will burst without a human verification layer.
+### I. AI Decomposition Engine (Orchestrator)
+- **Role**: Breaks down high-level user requests into granular, verifiable sub-tasks.
+- **Value**: Prevents "hallucinations" by isolating complex problems into discrete, solvable units with strict logical dependencies.
 
-### 2. The Solution: Solution-OS
-Not "another chatbot". An OS for end-to-end task solving, where AI is the coordinator, not the sole executor.
+### II. Anonymous Expert Network (Verified Talent)
+- **Role**: Verified human specialists execute sub-tasks where AI reliability is below the required threshold.
+- **Privacy**: Implements Zero-Knowledge Proof (ZKP) principles to ensure expert anonymity and intellectual property security.
 
-**Workflow**:
-1.  **AI Decomposition**: User request broken down into sub-tasks.
-2.  **Anonymous Experts**: Tasks distributed to verified specialists (zk-proof, reputation).
-3.  **DAO Validation**: Best solutions selected via community/expert voting.
-4.  **Result**: User receives verified "turnkey" solution.
-
-### 3. Value for Platforms
-- **For xAI/Google/Amazon**: Reduces "bubble" risk, increases enterprise client ROI.
-- **For Users**: Guarantees quality where pure AI fails.
-- **For Experts**: Anonymity + payment for real contribution (GRE Economics).
-
-### 4. Connection to Marketplace
-**Solution-OS Marketplace** is the first commercial module of this architecture.
-- Instead of complex tasks → **Buying goods/services**.
-- Instead of DAO → **AI Acquirer Agent** (works for the buyer).
-- Instead of abstract ethics → **Concrete benefit** (lower returns, transparent choice).
-
-> Marketplace proves the Solution-OS core viability in the real market.
-
-### 5. Status
-- **Architecture**: Fixed (GitHub timestamp).
-- **Ethics (GRE)**: Protocol ready.
-- **Commercialization**: Architecture Licensing (see COMMERCIAL.md).
+### III. DAO Validation & The 40/30/30 Protocol
+- **Mechanism**: All solutions undergo peer-review via a decentralized validation layer.
+- **Economic Distribution**: 
+    - **40%**: Assigned to the primary executor (Expert or specialized Agent).
+    - **30%**: Allocated to the validation community (quality control and audit).
+    - **30%**: Retained for platform infrastructure and the **1% Insurance Reserve**.
+- **Incentive Logic**: Prioritizes accuracy over volume, making high-quality verification more profitable than rapid automated output.
 
 ---
 
-## 🔗 Links / Ссылки
+## 3. The 1% Insurance Fund
+To mitigate operational risks for Enterprise clients, Solution-OS maintains a **1% Liquidity Buffer** derived from every transaction. This fund serves as a guarantee against errors and ensures system anti-fragility during high market volatility or complex logic failures.
 
-- **Marketplace Spec**: [CIFICATION.md](./CIFICATION.md)
-- **Commercial License**: [COMMERCIAL.md](./COMMERCIAL.md)
-- **GRE Economics**: [docs/gre-economics-v1.md](./docs/gre-economics-v1.md)
+---
 
-> *"Technology without ethics is a tool without purpose."*  
+## 4. Ecosystem Integration
+Solution-OS Core is the foundation for specialized modular layers:
+- **Solution-Shop**: For ethical, agent-based commerce [see SOLUTION_SHOP.md].
+- **Solution-News**: For noise-free, verified information protocols [see SOLUTION-NEWS.md].
+
+---
+
+## 5. Intellectual Property & Governance
+The unique 40/30/30 distribution model, the 1% Insurance Buffer logic, and the "AI Coherence Engine" integration framework are the intellectual property of @Gost-Ozi.
+
+> "Standardizing trust in a world of automated chaos."
 > © @Gost-Ozi | Solution-OS Architecture
