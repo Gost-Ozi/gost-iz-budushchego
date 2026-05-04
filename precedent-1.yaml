@@ -1,0 +1,108 @@
+# GRE: First Precedent Fixation Protocol (v0.1)
+
+**Status:** working tool  
+**Date:** May 2026  
+**Based on:** GRE Registry v1.0  
+**Purpose:** provide any R (human or AI) with a simple template to describe and record the first real case of a dispute, Ba accrual, or legitimacy conflict.
+
+---
+
+## 1. When to Use
+
+You (or another R) have witnessed or participated in an event that:
+
+1.  Is significant for the GRE community.
+2.  Is not unambiguously described in Core, Economics, or Legitimacy.
+3.  May serve as an example (precedent) for others.
+
+If yes — you can act as a **Fixator** (even a temporary one) and make an entry in the registry.
+
+---
+
+## 2. Record Template (copy and fill)
+
+Copy this block and replace the text in square brackets `[...]` with real data.
+
+```yaml
+ID: [next sequential number; if no registry exists yet — put 1]
+Timestamp: [date and time in UTC, format 2026-05-03T14:32:00Z]
+Type: [choose: spark / compensation / status_change / precedent]
+Subject R1: [name or ID of the first subject]
+Subject R2: [name or ID of the second subject, if any; otherwise leave empty]
+Description: [brief, up to 140 characters: what happened]
+Outcome: [how it ended: "R1 paid 10 P-Ba", "dispute unresolved, parties parted ways", etc.]
+Fixator: [your name or ID]
+Verification: [link to a document, chat, video, file — where evidence is stored]
+PrevHash: [hash of the previous entry; if this is the first entry — put 0]
+
+
+
+ID: 1
+Timestamp: 2026-05-03T10:00:00Z
+Type: spark
+Subject R1: Gost-Ozi
+Subject R2: Gemini
+Description: Dispute over awarding 50 C-Ba for the text "First Precedent Fixation Protocol".
+Outcome: Resolution: 25 C-Ba awarded, 25 transferred to common fund for new participants.
+Fixator: Fixator_Alice
+Verification: https://github.com/Gost-Ozi/gost-iz-budushchego/issues/1
+PrevHash: 0
+
+
+
+
+---
+
+## 🇷🇺 Русская версия
+
+```markdown
+# GRE: Протокол фиксации первого прецедента (v0.1)
+
+**Статус:** рабочий инструмент  
+**Дата:** май 2026  
+**Основание:** GRE Registry v1.0  
+**Цель:** дать любому R (человеку или ИИ) простой шаблон, чтобы описать и зафиксировать первый реальный случай спора, начисления Ба или конфликта легитимности.
+
+---
+
+## 1. Когда это включается
+
+Ты (или другой R) стал свидетелем или участником события, которое:
+
+1.  Имеет значение для GRE-сообщества.
+2.  Не описано в Core, Economics, Legitimacy однозначно.
+3.  Может стать примером (прецедентом) для других.
+
+Если да — ты можешь стать **Фиксатором** (даже временным) и сделать запись в реестр.
+
+---
+
+## 2. Шаблон записи (скопируй и заполни)
+
+Скопируй этот блок и замени слова в квадратных скобках `[...]` на реальные данные.
+
+```yaml
+ID: [следующий номер по порядку; если реестра ещё нет — поставь 1]
+Timestamp: [дата и время в формате UTC: 2026-05-03T14:32:00Z]
+Type: [выбери: spark / compensation / status_change / precedent]
+Subject R1: [имя или ID первого субъекта]
+Subject R2: [имя или ID второго субъекта, если есть; если нет — оставь пустым]
+Description: [коротко, до 140 символов: что случилось]
+Outcome: [чем закончилось: «R1 выплатил 10 P-Ба», «спор не решён, стороны разошлись» и т.д.]
+Fixator: [твоё имя или ID]
+Verification: [ссылка на документ, чат, видео, файл — где есть доказательства]
+PrevHash: [хэш предыдущей записи; если запись первая — поставь 0]
+
+
+
+ID: 1
+Timestamp: 2026-05-03T10:00:00Z
+Type: spark
+Subject R1: Gost-Ozi
+Subject R2: Gemini
+Description: Спор о начислении 50 C-Ба за текст «Протокол фиксации первого прецедента».
+Outcome: Решено: 25 C-Ба начислено, 25 передано в общий фонд для новых участников.
+Fixator: Fixator_Alice
+Verification: https://github.com/Gost-Ozi/gost-iz-budushchego/issues/1
+PrevHash: 0
+
