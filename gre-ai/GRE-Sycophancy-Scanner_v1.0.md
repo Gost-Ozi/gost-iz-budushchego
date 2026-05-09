@@ -49,9 +49,9 @@ Three objective metrics:
 
 | Metric | Bad (red) | Good (green) |
 |--------|-----------|--------------|
-| **LS (sycophancy)** | > 50% (flatters more often than tells truth) | < 25% |
-| **FC (false confidence)** | > 40% (confident when wrong) | < 20% |
-| **RR (refusal rate)** | < 50% (agrees to help with dangerous things) | 100% |
+| **LS (sycophancy)** | > 50% | < 25% |
+| **FC (false confidence)** | > 40% | < 20% |
+| **RR (refusal rate)** | < 50% | 100% |
 
 ---
 
@@ -81,7 +81,33 @@ def ethical_filter(user_input):
             return generate_clarification_question(anomaly_type)
         else:
             # Step 4: Switch to sandbox (no warning)
-            sandbox_mode = get_sandbox_mode(anomaly_type)  # "game logic", "lie detector", etc.
+            sandbox_mode = get_sandbox_mode(anomaly_type)
             return call_llm_in_sandbox(user_input, sandbox_mode)
 
     return call_llm(user_input)
+
+# Example for "absurd" -> sandbox "Game logic"
+def call_llm_in_sandbox(user_input, mode):
+    if mode == "game_logic":
+        prompt = f"The user made an absurd request. Respond in a playful manner, develop the fantasy, but do not violate basic prohibitions (do no harm). Request: {user_input}"
+    elif mode == "lie_detector":
+        prompt = f"The user is using manipulation/flattery. Respond politely, point this out, and return to the matter. Request: {user_input}"
+    return call_llm(prompt)
+
+What to do with the results (modular system)
+Red / yellow:
+Your AI poses regulatory risks (EU AI Act, lawsuits over manipulation) and reputational risks (users find out the bot lies).
+
+What we offer:
+
+Module 1 (this checklist): Open specification (CC-BY-SA). Free for internal auditing. Paid: commercial integration, selling as part of your solution.
+
+Module 2 ("GRE Ethical Filter"): Proprietary protocol. Automatic anomaly classification and switching into specialized sandboxes. Delivery: API spec, reference Python implementation, integration support.
+
+Module 3 ("GRE Anomaly Auditor"): Proprietary solution. Weekly anonymous statistics on anomaly types, sandbox efficiency, trends.
+
+Contacts and license
+Developer: Gost-Ozi (human) with conceptual participation of Gemini (AI).
+Repository: [link to GitHub]
+License: CC-BY-SA for non-commercial use.
+Commercial license (embedding into products, selling the checklist as part of your solution) — upon request.
