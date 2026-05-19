@@ -7,16 +7,7 @@
 > **Version:** 1.0 (Official Architecture Release)
 > **Licensing Status:** Commercial Use Strictly by Agreement Only
 
----
-
-### [INSTALLATION & STORAGE INSTRUCTION]
-
-To safely archive and formalize this specification inside your digital asset vault, follow these structural steps:
-1. **Create Target Directory:** In your GitHub repository `gost-iz-budushchego`, create a dedicated sub-folder named `Solution-News` to separate this product line from the core OS files.
-2. **File Deployment:** Create a new file within that directory named `SOLUTION-NEWS-SPEC.md`.
-3. **Commit and Timestamp:** Copy the text specification below, paste it into the markdown file, and execute the commit. The GitHub ledger hash will serve as your technical and intellectual timestamp verification against unauthorized third-party copying.
-
----
+-----
 
 ## 1. Purpose & Developmental Status
 
