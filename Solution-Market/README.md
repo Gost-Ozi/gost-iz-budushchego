@@ -7,6 +7,10 @@
 **Spec**: [SPEC.md](./SPEC.md) | **License**: [COMMERCIAL.md](./COMMERCIAL.md)  
 **Contact**: [CONTACT.md](./CONTACT.md)
 
+# Solution-Market | Ethical AI-Powered Marketplace
+
+> Built on [Solution-OS Core](../SOLUTION-OS-CORE.md)  
+> Transparent product ranking + post-purchase support + trust layer
 ---
 
 ## 🎯 What It Solves
